@@ -1,0 +1,32 @@
+# Core packages
+pandas
+numpy
+scikit-learn
+
+# For saving/loading models
+joblib
+
+# For backend (FastAPI) or dashboard (Streamlit)
+fastapi
+uvicorn           # if using FastAPI
+streamlit         # if using Streamlit dashboard
+
+# For visualization (optional but recommended)
+matplotlib
+seaborn
+plotly
+
+# For APIs and external communication (if needed)
+requests
+
+# Optional: For environment handling or scheduling
+python-dotenv
+
+streamlit
+openai
+langchain
+pandas
+python-dotenv   # If you want to hide OpenAI key in .env
+
+speechrecognition
+pyaudio
