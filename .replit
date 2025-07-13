@@ -14,3 +14,15 @@ requiredFiles = [".replit", "replit.nix"]
 [deployment]
 run = ["python3", "model/predictor.py"]
 deploymentTarget = "cloudrun"
+
+[workflows]
+runButton = "Run Streamlit App"
+
+[[workflows.workflow]]
+name = "Run Streamlit App"
+author = 44860025
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "streamlit run ui/app_streamlit.py --server.address 0.0.0.0 --server.headless true --server.enableCORS=false --server.enableWebsocketCompression=false"
