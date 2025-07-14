@@ -1,0 +1,31 @@
+# Core packages
+pandas
+numpy
+scikit-learn
+joblib
+
+# Dashboard
+streamlit
+
+# API & Backend
+fastapi
+uvicorn
+requests
+python-dotenv
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# OpenAI & LangChain (pinned to stable versions)
+openai
+langchain==0.1.13
+langchain-openai==0.0.5
+tiktoken==0.5.1
+
+# Speech Recognition (use compatible & deployable packages)
+SpeechRecognition
+pyttsx3
+
+
