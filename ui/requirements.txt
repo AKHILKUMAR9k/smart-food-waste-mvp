@@ -1,33 +1,7 @@
-# Core libraries
-pandas
-numpy
-scikit-learn
-joblib
-
-# Streamlit dashboard
 streamlit
-
-# FastAPI backend (if needed)
-fastapi
-uvicorn
-
-# External communication
-requests
-python-dotenv
-
-# Visualization
+pandas
 matplotlib
 seaborn
-plotly
-
-# OpenAI + Langchain (compatible versions)
-openai
-langchain==0.1.13
-langchain-openai==0.0.5
-
-# Do NOT specify tiktoken version to avoid conflicts
-# Let pip resolve the correct version (>=0.5.2, <0.6.0)
-
-# Speech and TTS (local use only)
+python-dotenv
 SpeechRecognition
-pyttsx3
+
