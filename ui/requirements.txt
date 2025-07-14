@@ -1,7 +1,8 @@
+
 streamlit
 pandas
 matplotlib
 seaborn
-python-dotenv
+pyttsx3
 SpeechRecognition
-
+python-dotenv
