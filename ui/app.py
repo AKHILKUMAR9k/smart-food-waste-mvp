@@ -3,9 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
+import sys
 from dotenv import load_dotenv
 
-# Voice input (optional - use only if mic support exists)
+# Fix path to import from parent directory
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+# Optional voice input
 import speech_recognition as sr
 
 # Load environment variables
